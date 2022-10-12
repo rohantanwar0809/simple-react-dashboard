@@ -1,0 +1,1 @@
+export const formatClassNames = (...args) => [...args].filter(Boolean).join(' ');

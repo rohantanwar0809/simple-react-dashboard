@@ -1,0 +1,21 @@
+.mainWrapper {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 80px 1fr;
+
+  .sidebar {
+    border: 1px solid #f2f2f2;
+  }
+
+  .content {
+    margin-left: 3rem;
+
+    .headerText {
+      font-weight: bold;
+      font-size: 1.5rem;
+      color: grey;
+      margin: 1.5rem 0;
+    }
+
+  }
+}

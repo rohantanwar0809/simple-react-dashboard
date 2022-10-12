@@ -1,6 +1,6 @@
 # Dashboard UI
 
-This project consists a simple dashboard UI made usng React.
+This project consists a simple dashboard UI made using React(CRA).
 
 ## Available Scripts
 

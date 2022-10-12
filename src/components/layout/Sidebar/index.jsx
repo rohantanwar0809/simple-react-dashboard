@@ -2,6 +2,7 @@ import React from 'react';
 import { formatClassNames } from '../../../utilities/format';
 import { sidebarData } from '../Main/constants/data';
 import styles from './Sidebar.module.scss';
+import { MdHeadsetMic } from 'react-icons/md';
 
 const Sidebar = props => {
   const { activeSidebarItem, itemClickHandler } = props;
@@ -14,6 +15,9 @@ const Sidebar = props => {
             <span className={styles.name}>{item.name}</span>
           </div>
         ))}
+        <div className={styles.headphone}>
+          <MdHeadsetMic size={'25px'} />
+        </div>
       </div>
     </>
   );

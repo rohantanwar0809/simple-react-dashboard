@@ -29,11 +29,14 @@ export const sidebarData = [
 
 export const headingsData = ['Campaign', 'Total Posts', 'This Week', 'Total Influencers', 'Days Left', 'Status'];
 
+export const sectionsHeading = "Recently Viewed Campaigns";
+
 export const campaignData = [
   {
     id: 1,
     logo: '',
     name: 'Sony Kenya Campaign',
+    by: "Sony",
     socialLinks: [
       {
         name: 'linkedin',
@@ -73,6 +76,7 @@ export const campaignData = [
     id: 2,
     logo: '',
     name: 'Sony Kenya Campaign',
+    by: "Sony",
     socialLinks: [
       {
         name: 'linkedin',
@@ -112,6 +116,7 @@ export const campaignData = [
     id: 3,
     logo: '',
     name: 'Sony Kenya Campaign',
+    by: "Sony",
     socialLinks: [
       {
         name: 'linkedin',
@@ -149,6 +154,7 @@ export const campaignData = [
     id: 4,
     logo: '',
     name: 'Sony Kenya Campaign',
+    by: "Sony",
     socialLinks: [
       {
         name: 'linkedin',
@@ -188,6 +194,7 @@ export const campaignData = [
     id: 5,
     logo: '',
     name: 'Sony Kenya Campaign',
+    by: "Sony",
     socialLinks: [
       {
         name: 'linkedin',

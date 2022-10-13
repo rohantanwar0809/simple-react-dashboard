@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Sidebar from '../Sidebar';
 import CampaignSection from './components/CampaignSection';
+import { sectionsHeading } from './constants/data';
 import styles from './Main.module.scss';
 
 const Main = () => {
@@ -14,7 +15,7 @@ const Main = () => {
       <Sidebar activeSidebarItem={activeSidebarItem} itemClickHandler={itemClickHandler} />
       {/* Can render different section based on sidebar selected items */}
       <div className={styles.content}>
-        <h2 className={styles.headerText}>Recently Viewed Campaigns</h2>
+        <h2 className={styles.headerText}>{sectionsHeading}</h2>
         <CampaignSection />
       </div>
     </div>
